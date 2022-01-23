@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alex's Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/favicon/site.webmanifest">
+        <link rel="stylesheet" href="css/style.css">
+        <style type="text/css">
+            body{
+                background-color: rgb(235, 235, 235);
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="/index.html">
+                <img src="img/logo.jpg" width="300px" height="60px" alt="logo">
+                </a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                Todo <strong>Reactjs</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">. . . Upcomming . . . </p>
+            <img src="/img/reactTodo/mainPhoto.gif" alt="" class="intro__img" height="250px" width="auto">
+        </section>
+        
+        <div class="portfolio-item-individual">
+
+            <p>Hello! this is my fisrt ReactJS app, at the moment it is under development.
+                 I plan to complete it in the near future, with all the functionality.</p>
+            <img src="/img/reactTodo/reactComponents.png" alt="">
+            <p>Next, I will give you a demonstration of the original application, and mine,
+                 which I copied from the original</p>
+                 <div class="wrap">
+                    <img src="/img/reactTodo/ex1.jpg" alt="" class="images">  
+                    <img src="/img/reactTodo/ex2.jpg" alt="" class="images">
+                 </div>
+            <p>And then a few parts from the code, for a visual demonstration of what is there
+            </p>  
+            <img src="/img/reactTodo/Checkbox.jpg" alt="Checkbox" class="imges"> <br>
+            <img src="/img/reactTodo/PinnedTodo.jpg" alt="PinnedTodo" class="imges"> <br>
+            <img src="/img/reactTodo/scssPinnedTodo.jpg" alt="scssPinnedTodo" class="imges"> <br>
+            <img src="/img/reactTodo/Todolist.jpg" alt="Todolist" class="imges"> <br>
+            <p class="center">Thank you for taking the time to view this site</p>
+        </div>
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:alexandr.volinet@gmail.com" class="footer__link">alexandr.volinet@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/alexandru-volinet-03671b208/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/vvoodenwallswarrior/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/alexandrvolinet">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        <script src="js/index.js"></script>
+    </body>
+</html>
